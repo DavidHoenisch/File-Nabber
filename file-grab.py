@@ -49,17 +49,7 @@ else:
 
 welcome()
 main(options.FILE, options.DESTINATION, options.OUT, options.KEY, options.USER, options.PASS, ssh, host_key, no_key, connect, scp_client)
-scp_client.close()
-
-
-
-# FUTURE OBJECTIVES
-
-# 1. SSH Key support
-# 2. Better error handling
-# 3. Progress tracker to show download progress 
-# 4. Hashing Functionality to establish basic forensics baseline
-# 5. Integration with Cuckoo Sandbox.  
+scp_client.close() 
 
 
 
